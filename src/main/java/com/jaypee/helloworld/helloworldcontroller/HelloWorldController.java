@@ -9,7 +9,9 @@ public class HelloWorldController {
     @GetMapping("/")
     public String hello(){
 
-        return "Hello World";
+        String world = "Jove";
+
+        return "Hello, " + world;
 
     }
     
